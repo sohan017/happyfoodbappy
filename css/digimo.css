@@ -1,0 +1,46 @@
+/* Global STart */
+.service-7 .service .service-box .s-box {
+    padding: 20px;
+    text-align: center;
+}
+/* Global End */
+
+/* Desktop Css COde Start */
+@media (min-width: 768px) {
+
+}
+/* Desktop Css COde End */
+
+/* Mobile Css Code Start */
+@media (max-width: 768px) {
+    .tr-pro-img > a > img {
+        width: 100%;
+    }
+
+    .h-t-pro .tred-pro .Pro-lable span.p-text {
+        left: 32px;
+        background-color: #82b83d;
+    }
+
+    .service-content > h3{
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .swiper-slide
+    {
+        width: 100% !important;
+        margin-right: 0px !important;
+    }
+
+    .home_delivery .delviery-icon
+    {
+        margin: 0 auto;
+    }
+
+    .owl-nav{
+        display: none;
+    }
+}
+
+/* Mobile Css Code End */

@@ -37,6 +37,7 @@
     <link rel="stylesheet" type="text/css" href="css/style_cus.css">
     <link rel="stylesheet" type="text/css" href="css/responsive7.css">
     <link href="./datetime/css/datetimepicker.css" rel="stylesheet" type="text/css"/>
+    <link href="css/digimo.css" rel="stylesheet" type="text/css"/>
 </head>
 
 <body class="home-7">
@@ -2233,9 +2234,9 @@
             </div>
             
             <div class="row">
-                <div class="col">
-                </div>
-                <div class="col">
+                <!-- <div class="col">
+                </div> -->
+                <div class="col-md-3 col-lg-3 col-sm-12">
                     <div class="delviery-icon">
                         <a href="">
                             <figure>
@@ -2247,7 +2248,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-md-3 col-lg-3 col-sm-12">
                     <div class="delviery-icon">
                         <a href="">
                             <figure>
@@ -2259,7 +2260,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-md-3 col-lg-3 col-sm-12">
                     <div class="delviery-icon">
                         <a href="">
                             <figure>
@@ -2271,7 +2272,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-md-3 col-lg-3 col-sm-12">
                     <div class="delviery-icon">
                         <a href="">
                             <figure>
@@ -2283,8 +2284,8 @@
                         </a>
                     </div>
                 </div>
-                <div class="col">
-                </div>
+                <!-- <div class="col">
+                </div> -->
             </div>
         </div>
     </section>
