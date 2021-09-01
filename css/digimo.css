@@ -4,12 +4,12 @@
     text-align: center;
 }
 
-.service-content-h3{
-        font-size: 14px;
-        line-height: 18px !important;
-    }
+.service-content-h3 {
+    font-size: 14px;
+    line-height: 18px !important;
+}
 
-.caption h3{
+.caption h3 {
     line-height: 18px !important;
 }
 
@@ -17,13 +17,12 @@
     margin-top: -60px;
 }
 
-  .gmap_canvas {
+.gmap_canvas {
     overflow: hidden;
     background: none!important;
     width: 450px;
-   /*  height: 400px; */
+    /*  height: 400px; */
 }
-
 
 /*About US Start*/
 .ser_csi {
@@ -38,12 +37,12 @@
     margin-bottom: 80px;
 }
 
-.img_box{
+.img_box {
     margin-top: 60px;
     margin-bottom: 40px;
 }
 
-.img_box img{
+.img_box img {
     height: 500px;
 }
 
@@ -85,16 +84,13 @@ h3.About_h3 {
     background: #c1c1c10d;
 }
 
-
 /*About US End*/
-
-
 
 /* Global End */
 
 /* Desktop Css COde Start */
 @media (min-width: 768px) {
-    .service-content-h3{
+    .service-content-h3 {
         font-size: 14px;
         line-height: 18px !important;
     }
@@ -113,47 +109,55 @@ h3.About_h3 {
         background-color: #82b83d;
     }
 
-    .service-content-h3{
+    .service-content-h3 {
         font-size: 14px;
         line-height: 18px !important;
     }
 
-    .swiper-slide
-    {
+    .swiper-slide {
         /*width: 100% !important;*/
-       /* margin-right: 0px !important;*/
+        /* margin-right: 0px !important;*/
     }
 
     .footer-bottom.hrb {
-    margin-top: -60px;
-    margin-left: 50px;
+        margin-top: -60px;
+        /* margin-left: 50px; */
     }
 
-    .home_delivery .delviery-icon
-    {
+    .home_delivery .delviery-icon {
         margin: 0 auto;
     }
 
-    .owl-nav{
+    .owl-nav {
         display: none;
     }
 
     .gmap_canvas {
-    overflow: hidden;
-    background: none!important;
-    width: 300px;
-    /* height: 400px; */
-}
+        overflow: hidden;
+        background: none!important;
+        width: 300px;
+        /* height: 400px; */
+    }
 
-   .social {
-    display: none;
-}
+    .social {
+        display: none;
+    }
 
-.book-now-wrapper.cl-block {
-    display: none;
-}
+    .book-now-wrapper.cl-block {
+        display: none;
+    }
 
-/*.header-main-area.is-sticky {
+    .footer-details.logo-content{
+        text-align: center !important;
+        display: inline-table !important;
+    } 
+
+    .footer-bottom .footer-link
+    {
+        margin-top: 0px !important;
+    }
+
+    /*.header-main-area.is-sticky {
     margin-top: 55px;
     border-bottom: 3px solid #9c108a;
    
