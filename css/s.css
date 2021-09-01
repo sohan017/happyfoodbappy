@@ -32,21 +32,21 @@ img{
   justify-content: space-between;
   margin-top: 10px;
 }
-.items span {
+/*.items span {
   padding: 0px 3px;
   font-size: 14px;
   font-weight: normal;
   cursor: pointer;
   color: #838383;
-  /* border-radius: 50px; */
-  /* border: 2px solid #82b83d; */
+   border-radius: 50px; 
+   border: 2px solid #82b83d; 
   transition: all 0.3s ease;
 }
 .items span.active,
 .items span:hover{
   color: #82b83d;
   border-bottom: 1px solid #8aba43;
-}
+}*/
 
 .gallery{
   display: flex;

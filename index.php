@@ -312,17 +312,17 @@
                                         <div class="mainwrap">
                                             <ul class="main-menu">
                                                 <li class="menu-link">
-                                                    <a href="javascript:void(0)" class="link-title">
+                                                    <a href="index.php" class="link-title">
                                                         <span class="sp-link-title">Menu</span>
                                                     </a>
                                                 </li>
                                                 <li class="menu-link">
-                                                    <a href="javascript:void(0)" class="link-title">
+                                                    <a href="gallery.php" class="link-title">
                                                         <span class="sp-link-title">Gallery</span>
                                                     </a>
                                                 </li>
                                                 <li class="menu-link">
-                                                    <a href="javascript:void(0)" class="link-title">
+                                                    <a href="aboutus.php" class="link-title">
                                                         <span class="sp-link-title">About us</span>
                                                     </a>
                                                 </li>
@@ -336,11 +336,11 @@
                                                         <span class="sp-link-title">Reservation</span>
                                                     </a>
                                                 </li>
-                                                <li class="menu-link">
+                                                <!-- <li class="menu-link">
                                                     <a href="javascript:void(0)" class="link-title">
                                                         <span class="sp-link-title">Contact</span>
                                                     </a>
-                                                </li>
+                                                </li> -->
                                             </ul>
                                         </div>
                                     </div>
@@ -2548,7 +2548,7 @@
                     <div class="gmap_canvas">
                          <iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=University of Oxford&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
                     </div>
-                    <style>.mapouter{margin: 0 auto;    display: table;}.gmap_iframe {width:300px!important;height:200px!important;}</style>
+                    <style>.mapouter{margin: 0 auto;    display: table;}.gmap_iframe {width:450px!important;height:200px!important;}</style>
                 </div>
             </div>
         </div>

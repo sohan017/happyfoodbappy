@@ -145,10 +145,19 @@ h3.About_h3 {
     /* height: 400px; */
 }
 
-   /* .cos_cs{
-        display: none;
-    }
-*/
+   .social {
+    display: none;
+}
+
+.book-now-wrapper.cl-block {
+    display: none;
+}
+
+/*.header-main-area.is-sticky {
+    margin-top: 55px;
+    border-bottom: 3px solid #9c108a;
+   
+}*/
 
 }
 

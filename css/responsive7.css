@@ -690,7 +690,9 @@ iphone css
     }
     /* header top css */
     .header-main-area .header-main .header-element.logo {
-        width: 25%;
+        /*width: 25%;*/
+        width: 100%;
+        
     }
     .search-area li.top-home-li{
         display: flex;

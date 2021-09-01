@@ -322,17 +322,17 @@
         								<div class="mainwrap">
         									<ul class="main-menu">
         										<li class="menu-link">
-        											<a href="javascript:void(0)" class="link-title">
+        											<a href="index.php" class="link-title">
         												<span class="sp-link-title">Menu</span>
         											</a>
         										</li>
         										<li class="menu-link">
-        											<a href="javascript:void(0)" class="link-title">
+        											<a href="gallery.php" class="link-title">
         												<span class="sp-link-title">Gallery</span>
         											</a>
         										</li>
         										<li class="menu-link">
-        											<a href="javascript:void(0)" class="link-title">
+        											<a href="aboutus.php" class="link-title">
         												<span class="sp-link-title">About us</span>
         											</a>
         										</li>
@@ -346,12 +346,12 @@
         												<span class="sp-link-title">Reservation</span>
         											</a>
         										</li>
-        										<li class="menu-link">
+        										<!-- <li class="menu-link">
         											<a href="javascript:void(0)" class="link-title">
         												<span class="sp-link-title">Contact</span>
         											</a>
         										</li>
-        									</ul>
+ -->        									</ul>
         								</div>
         							</div>
         							<!-- main-menu end -->
