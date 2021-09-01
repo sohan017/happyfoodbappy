@@ -10,6 +10,10 @@
   background: #007bff;
 }
 
+img{
+  max-width: 100%;
+}
+
 /*body{
   padding: 10px;
 }*/
@@ -265,17 +269,12 @@ li.logo-conten {
 body {
 background: aliceblue;
 }
-.section-padding{
-padding:60px 0;
+.single-logo {
+    display: inline-table;
 }
-.brand-carousel {
-background: #9a9a9a;
-margin-top: 15%;
-}
-.owl-dots {
-text-align: center;
-margin-top: 4%;
-}
+.section-padding{padding-top: 1%;}
+.brand-carousel {background: #9a9a9a;margin-top: 15%;}
+.owl-dots {text-align: center;margin: 1% 0;}
 .owl-dot {
 display: inline-block;
 height: 15px !important;
@@ -315,7 +314,7 @@ h3 {
 }
 
 .popup_video .img-fluid {
-    margin-left: 250px;
+   /* margin-left: 250px;*/
     margin-top: 50px;
 }
 
@@ -352,7 +351,7 @@ hr.hr_style {
     border-bottom: 3px solid #9c108a;
 }
 
-header.header-area {
+/*header.header-area {
     border-bottom: 3px solid #a00b8d;
 }
 
@@ -363,4 +362,8 @@ header.header-area {
 
 .single-logo {
     padding: 67px;
-}
+}*/
+
+
+
+

@@ -888,9 +888,10 @@ iphone css
     }
     .footer-bottom .footer-link .f-link:last-child {
         padding-bottom: 0px;
+    margin: 25px 0;
+    text-align: center;
     }
     .footer-bottom .footer-link .f-link h2.h-footer{
-        display: none;
     }
     .footer-bottom .footer-link .f-link a.h-footer{
         display: flex;
@@ -902,7 +903,6 @@ iphone css
         content: "\f106";
     }
     .footer-bottom .footer-link .f-link .collapse:not(.show){
-        display: none;
     }
     .footer-bottom .footer-link .f-link ul.f-link-ul {
         margin-top: 0px;

@@ -33,16 +33,17 @@
 	<link rel="stylesheet" type="text/css" href="css/animate.css">
 	<link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
 	<!-- style -->
+    <!-- Lightbox -->
+    <link href="path/to/lightbox.css" rel="stylesheet" />
+  
 	<!-- cdn -->
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-	<script src="custom.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/style7.css">
 	<link rel="stylesheet" type="text/css" href="css/style_cus.css">
 	<link rel="stylesheet" type="text/css" href="css/s.css">
+    <link rel="stylesheet" type="text/css" href="css/digimo.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive7.css">
 	<link href="./datetime/css/datetimepicker.css" rel="stylesheet" type="text/css"/>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
@@ -120,12 +121,12 @@
 											</a>
 										</li>
 										<li class="menu-link parent">
-											<a href="./" class="link-title">
+											<a href="gallery.php" class="link-title">
 												<span class="sp-link-title">Gallery</span>
 											</a>
 										</li>
 										<li class="menu-link parent">
-											<a href="./" class="link-title">
+											<a href="aboutus.php" class="link-title">
 												<span class="sp-link-title">About us</span>
 											</a>
 										</li>
@@ -139,11 +140,11 @@
 												<span class="sp-link-title">Reservation</span>
 											</a>
 										</li>
-										<li class="menu-link parent">
+										<!-- <li class="menu-link parent">
 											<a href="./" class="link-title">
 												<span class="sp-link-title">Contact</span>
 											</a>
-										</li>
+										</li> -->
 									</ul>
 								</div>
 							</div>
@@ -2200,22 +2201,22 @@
             <div class="video_gallery">
                 <div class="slider slider-for">
                     <div class="gallery_item">
-                        <a href="https://vimeo.com/469450080" class="popup_video"><img class="img-fluid" src="image/VT/1.jpg" cl alt=""></a>
+                        <a href="https://vimeo.com/469450080" class="popup_video"><img class="img-fluid" src="image/tham_img.png" cl alt=""></a>
                     </div>
                     <div class="gallery_item">
                         <a href="https://vimeo.com/469450080" class="popup_video"><img class="img-fluid" src="image/VT/2.jpg" cl alt=""></a>
                     </div>
                     <div class="gallery_item">
-                        <a href="https://vimeo.com/469450080" class="popup_video"><img class="img-fluid" src="image/VT/3.jpg" cl alt=""></a>
+                        <a href="https://vimeo.com/469450080" class="popup_video"><img class="img-fluid" src="image/tham_img.png" cl alt=""></a>
                     </div>
                     <div class="gallery_item">
-                        <a href="https://www.youtube.com/watch?v=Amq-qlqbjYA" class="popup_video"><img class="img-fluid" src="image/VT/1.jpg" cl alt=""></a>
+                        <a href="https://www.youtube.com/watch?v=Amq-qlqbjYA" class="popup_video"><img class="img-fluid" src="image/tham_img.png" cl alt=""></a>
                     </div>
                     <div class="gallery_item">
-                        <a href="https://www.youtube.com/watch?v=Amq-qlqbjYA" class="popup_video"><img class="img-fluid" src="image/VT/2.jpg" cl alt=""></a>
+                        <a href="https://www.youtube.com/watch?v=Amq-qlqbjYA" class="popup_video"><img class="img-fluid" src="image/tham_img.png" cl alt=""></a>
                     </div>
                     <div class="gallery_item">
-                        <a href="https://www.youtube.com/watch?v=Amq-qlqbjYA" class="popup_video"><img class="img-fluid" src="image/VT/3.jpg" cl alt=""></a>
+                        <a href="https://www.youtube.com/watch?v=Amq-qlqbjYA" class="popup_video"><img class="img-fluid" src="image/tham_img.png" cl alt=""></a>
                     </div>
                 </div>
                 <div class="slider slider-nav">
@@ -2254,129 +2255,148 @@
 
 <!-- home delivery start--> 
 <section class="cl-block table_booking section-bottom-padding" style="background-image: url(./image/bg/1.png); background-size: cover;">
-   <div class="container">
-      <div class="row">
-         <div class="col">
-            <div class="col-md-5">
-               <div class="hero-inner-block" style="padding: 35px 60px;">
-                  <h2>BOOK A TABLE</h2>
-                  <form action="https://indiangardenhammarby.se/reservation/request" method="post" enctype="multipart/form-data">
-                     <input type="hidden" name="_token" value="yFLx0mWcWKr6Q2V3Dco8Vn1eIXeqVNKuZPsrruGF">
-                     <div class="mb-2">
-                        <input id="name" name="name" class="form-control" type="text" placeholder="Enter your name">
-                    </div>
-                    <div class="mb-2">
-                        <input id="email" name="email" class="form-control" type="email" placeholder="Enter your email address">
-                    </div>
-                    <div class="mb-2">
-                        <input id="phone" name="phone" class="form-control" type="text" placeholder="Enter your phone number">
-                    </div>
-                    <div class="mb-2">
-                        <div id="picker-no-time"></div>
-                        <input type="hidden" id="reservations_date" value="" />
-                    </div>
-                    <div class="mb-2">
-                        <select name="reservations_time" class="form-control"><option value="">Select Time</option><option value="11:00">11:00</option><option value="11:30">11:30</option><option value="12:00">12:00</option><option value="12:30">12:30</option><option value="13:00">13:00</option><option value="13:30">13:30</option><option value="14:00">14:00</option><option value="14:30">14:30</option><option value="15:00">15:00</option><option value="16:00">16:00</option><option value="16:30">16:30</option><option value="17:00">17:00</option><option value="17:30">17:30</option><option value="18:00">18:00</option><option value="18:30">18:30</option><option value="19:00">19:00</option><option value="19:30">19:30</option><option value="20:00">20:00</option><option value="21:00">21:00</option><option value="21:30">21:30</option><option value="22:00">22:00</option></select>
-                        <input type="hidden" name="reservations_status" value="Pending">
-                    </div>
-
-                    <div class="col-md-4 mb-2">
-                        <div class="qty-item">
-                           <div class="center">
-                              <div class="plus-minus">
-                                 <span>
-                                    <a href="javascript:void(0)" class="minus-btn text-black">-</a>
-                                    <input type="text" name="name" value="1">
-                                    <a href="javascript:void(0)" class="plus-btn text-black">+</a>
-                                </span>&nbsp;&nbsp;&nbsp;Person
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="form-group">
-                    <button class="btn btn-style2">Book A Table Now</button>
-                </div>
-            </form>
-        </div>
+ <div class="container">
+  <div class="row">
+   <div class="col">
+    <div class="col-md-5">
+     <div class="hero-inner-block" style="padding: 35px 60px;">
+      <h2>BOOK A TABLE</h2>
+      <form action="https://indiangardenhammarby.se/reservation/request" method="post" enctype="multipart/form-data">
+       <input type="hidden" name="_token" value="yFLx0mWcWKr6Q2V3Dco8Vn1eIXeqVNKuZPsrruGF">
+       <div class="mb-2">
+        <input id="name" name="name" class="form-control" type="text" placeholder="Enter your name">
     </div>
+    <div class="mb-2">
+        <input id="email" name="email" class="form-control" type="email" placeholder="Enter your email address">
+    </div>
+    <div class="mb-2">
+        <input id="phone" name="phone" class="form-control" type="text" placeholder="Enter your phone number">
+    </div>
+    <div class="mb-2">
+        <div id="picker-no-time"></div>
+        <input type="hidden" id="reservations_date" value="" />
+    </div>
+    <div class="mb-2">
+        <select name="reservations_time" class="form-control"><option value="">Select Time</option><option value="11:00">11:00</option><option value="11:30">11:30</option><option value="12:00">12:00</option><option value="12:30">12:30</option><option value="13:00">13:00</option><option value="13:30">13:30</option><option value="14:00">14:00</option><option value="14:30">14:30</option><option value="15:00">15:00</option><option value="16:00">16:00</option><option value="16:30">16:30</option><option value="17:00">17:00</option><option value="17:30">17:30</option><option value="18:00">18:00</option><option value="18:30">18:30</option><option value="19:00">19:00</option><option value="19:30">19:30</option><option value="20:00">20:00</option><option value="21:00">21:00</option><option value="21:30">21:30</option><option value="22:00">22:00</option></select>
+        <input type="hidden" name="reservations_status" value="Pending">
+    </div>
+
+    <div class="col-md-4 mb-2">
+        <div class="qty-item">
+         <div class="center">
+          <div class="plus-minus">
+           <span>
+            <a href="javascript:void(0)" class="minus-btn text-black">-</a>
+            <input type="text" name="name" value="1">
+            <a href="javascript:void(0)" class="plus-btn text-black">+</a>
+        </span>&nbsp;&nbsp;&nbsp;Person
+    </div>
+</div>
+</div>
+</div>
+
+
+<div class="form-group">
+    <button class="btn btn-style2">Book A Table Now</button>
+</div>
+</form>
+</div>
+</div>
 </div>
 </div>
 </div>
 </section>
 <!-- home delivery end -->
-
-<!-- footer start -->
+    <!-- footer start -->
 <section class="footer-7 section-top-bottom-padding">
-   <div class="container">
-      <div class="row">
-         <div class="col">
-            <div class="footer-bottom">
-               <div class="footer-link">
-                  <div class="f-info">
-                     <ul class="footer-first">
-                        <li class="logo-content" style="padding-left: 45px;">
-                           <a href="#">
-                              <img src="./image/image/logo/logo/logo/1x/Logo-footer-1.png" class="img-fluid f-logo-image" alt="logo-image">
-                          </a>
-                      </li>
-                      <li class="logo-content footer-details">
-                       <ul class="f-map">
-                          <li class="map-icn"><i class="ion-ios-location"></i></li>
-                          <li class="map-text">
-                             <p>401 Broadway 24th floor
-                             </p>
-                             <p>Near ant mall cross road</p>
-                         </li>
-                     </ul>
-                     <ul class="f-contact">
-                      <li class="call-icn"><i class="ion-ios-telephone"></i></li>
-                      <li class="contact-link">
-                         <a href="tel:351920143746">Phone: +351920143746</a>
-                         <a href="mailto:info@fahim.digital">Email: info@fahim.digital</a>
-                     </li>
-                 </ul>
-             </li>
-         </ul>
-     </div>
-     <div class="f-link">
-         <h2 class="h-footer">Services</h2>
-         <a href="#services" data-bs-toggle="collapse" class="h-footer">
-            <span>Services</span>
-            <i class="fa fa-angle-down"></i>
-        </a>
-        <ul class="f-link-ul collapse" id="services" data-bs-parent="#footer-accordian">
-            <li class="f-link-ul-li"><a href="#">About vegist</a></li>
-            <li class="f-link-ul-li"><a href="#">Faq's</a></li>
-            <li class="f-link-ul-li"><a href="#">Contact us</a></li>
-            <li class="f-link-ul-li">
-               <a href="javascript:void(0)" class="w-c-q-icn" data-bs-toggle="modal" data-bs-target="#exampleModal2">
-                  Marter QR Code
-              </a>
-          </li>
-          <li class="f-link-ul-li">
-           <a href="javascript:void(0)" class="w-c-q-icn" data-bs-toggle="modal" data-bs-target="#exampleModal3">
-              Table
-          </a>
-      </li>
-  </ul>
-</div>
-<div class="f-link">
- <h2 class="h-footer">Privacy & terms</h2>
- <a href="#privacy" data-bs-toggle="collapse" class="h-footer">
-    <span>Privacy & terms</span>
-    <i class="fa fa-angle-down"></i>
-</a>
-<ul class="f-link-ul collapse" id="privacy" data-bs-parent="#footer-accordian">
-    <li class="f-link-ul-li"><a href="#">Payment policy</a></li>
-    <li class="f-link-ul-li"><a href="#">Privacy policy</a></li>
-    <li class="f-link-ul-li"><a href="#">Return policy</a></li>
-    <li class="f-link-ul-li"><a href="#">Shipping policy</a></li>
-    <li class="f-link-ul-li"><a href="#">Terms & conditions</a></li>
-</ul>
-</div>
-                        <!-- <div class="f-link">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-lg-3 col-sm-3">
+                <div class="footer-bottom hrb">
+                    <div class="footer-link">
+                        <div class="f-info">
+                            <ul class="footer-first">
+                                <li class="logo-content" style="padding-left: 45px;">
+                                    <a href="#">
+                                        <img src="./image/image/logo/logo/logo/1x/Logo-footer-1.png" class="img-fluid f-logo-image" alt="logo-image">
+                                    </a>
+                                </li>
+                                <li class="logo-content footer-details">
+                                    <ul class="f-map">
+                                        <li class="map-icn"><i class="ion-ios-location"></i></li>
+                                        <li class="map-text">
+                                            <p>401 Broadway 24th floor
+                                            </p>
+                                            <p>Near ant mall cross road</p>
+                                        </li>
+                                    </ul>
+                                    <ul class="f-contact">
+                                        <li class="call-icn"><i class="ion-ios-telephone"></i></li>
+                                        <li class="contact-link">
+                                            <a href="tel:351920143746">Phone: +351920143746</a>
+                                            <a href="mailto:info@fahim.digital">Email: info@fahim.digital</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-lg-2 col-sm-2">
+                <div class="footer-bottom">
+                    <div class="footer-link">
+                        <div class="f-link">
+                            <h2 class="h-footer">Services</h2>
+                            <a href="#services" data-bs-toggle="collapse" class="h-footer">
+                                <span>Services</span>
+                                <i class="fa fa-angle-down"></i>
+                            </a>
+                            <ul class="f-link-ul collapse" id="services" data-bs-parent="#footer-accordian">
+                                <li class="f-link-ul-li"><a href="#">About vegist</a></li>
+                                <li class="f-link-ul-li"><a href="#">Faq's</a></li>
+                                <li class="f-link-ul-li"><a href="#">Contact us</a></li>
+                                <li class="f-link-ul-li">
+                                    <a href="javascript:void(0)" class="w-c-q-icn" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                                        Marter QR Code
+                                    </a>
+                                </li>
+                                <li class="f-link-ul-li">
+                                    <a href="javascript:void(0)" class="w-c-q-icn" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                                        Table
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-lg-2 col-sm-2">
+                <div class="footer-bottom">
+                    <div class="footer-link">                       
+                        <div class="f-link">
+                            <h2 class="h-footer">Privacy & terms</h2>
+                            <a href="#privacy" data-bs-toggle="collapse" class="h-footer">
+                                <span>Privacy & terms</span>
+                                <i class="fa fa-angle-down"></i>
+                            </a>
+                            <ul class="f-link-ul collapse" id="privacy" data-bs-parent="#footer-accordian">
+                                <li class="f-link-ul-li"><a href="#">Payment policy</a></li>
+                                <li class="f-link-ul-li"><a href="#">Privacy policy</a></li>
+                                <li class="f-link-ul-li"><a href="#">Return policy</a></li>
+                                <li class="f-link-ul-li"><a href="#">Shipping policy</a></li>
+                                <li class="f-link-ul-li"><a href="#">Terms & conditions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 col-lg-5 col-sm-5">
+                <div class="footer-bottom">
+                      <div class="footer-link">
+                        
+                            <!-- <div class="f-link">
                             <h2 class="h-footer">My account</h2>
                             <a href="#account" data-bs-toggle="collapse" class="h-footer">
                                 <span>My account</span>
@@ -2389,18 +2409,19 @@
                                 <li class="f-link-ul-li"><a href="#">My wishlist</a></li>
                                 <li class="f-link-ul-li"><a href="#">My address</a></li>
                             </ul>
-                        </div> -->
-                        <div class="f-link">
-                        	
-                        	<div class="mapouter">
-                        		<div class="gmap_canvas">
-                        			<iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=University of Oxford&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
-                        				
-                        			</iframe>
-                        			
-                        		</div>
-                        		<style>.mapouter{position:relative;text-align:right;width:0px;height:0px;}.gmap_canvas {overflow:hidden;background:none!important;width:300px;height:400px;}.gmap_iframe {width:300px!important;height:200px!important;}</style></div>
-                        	</div>
+                            </div> -->
+                            <div class="f-link">
+
+                             <div class="mapouter">
+                                <div class="gmap_canvas">
+                                    <iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=University of Oxford&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+
+                                    </iframe>
+                                    
+                                </div>
+                                <style>.mapouter{position:relative;text-align:right;width:0px;height:0px;}.gmap_iframe {width:300px!important;height:200px!important;}</style>
+                            `</div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -2408,6 +2429,7 @@
         </div>
     </section>
     <!-- footer end -->
+ 
     <!-- copyright start -->
     <section class="footer-copyright">
     	<div class="container">
@@ -2511,6 +2533,8 @@
     <script src="js/jquery.magnific-popup.min.js"></script>
     <!-- custom -->
     <script src="js/custom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
     <script src="js/script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment-with-locales.min.js" integrity="sha512-LGXaggshOkD/at6PFNcp2V2unf9LzFq6LE+sChH7ceMTDP0g2kn6Vxwgg7wkPP7AAtX+lmPqPdxB47A0Nz0cMQ==" crossorigin="anonymous"></script>
@@ -2531,7 +2555,7 @@
          	$( ".book-now" ).toggleClass( "open", 150 );
          });
      });
-     
+
 
  </script>  
  

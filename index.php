@@ -66,10 +66,10 @@
                                     <span><i class="icon-social-instagram"></i></span>
                                 </li>
                                 <li class="top-dropdown-li notification-title">
-                                   <i class="icon-lock-open"></i>
-                               </li>
-                               <!-- login start -->
-                               <li class="top-dropdown-li">
+                                 <i class="icon-lock-open"></i>
+                             </li>
+                             <!-- login start -->
+                             <li class="top-dropdown-li">
                                 <a href="javascript:void(0)">Login</a>
 
                             </li>
@@ -85,10 +85,10 @@
             </div>
         </div>
     </div>
-    </section>
+</section>
 <!-- top notificationbr start -->
 <!-- header start -->
-    <header class="header-area">
+<header class="header-area">
     <div class="header-main-area">
         <div class="container">
             <div class="row">
@@ -116,7 +116,7 @@
                                         </a>
                                     </li>
                                     <li class="menu-link parent">
-                                        <a href="./" class="link-title">
+                                        <a href="aboutus.php" class="link-title">
                                             <span class="sp-link-title">About us</span>
                                         </a>
                                     </li>
@@ -130,11 +130,11 @@
                                             <span class="sp-link-title">Reservation</span>
                                         </a>
                                     </li>
-                                    <li class="menu-link parent">
+                                    <!-- <li class="menu-link parent">
                                         <a href="./" class="link-title">
                                             <span class="sp-link-title">Contact</span>
                                         </a>
-                                    </li>
+                                    </li> -->
                                 </ul>
                             </div>
                         </div>
@@ -426,7 +426,7 @@
                                     </a>
                                 </div>
                                 <div class="service-content">
-                                    <h3>Live wine function</h3>
+                                    <h3 class="service-content-h3">Live wine function</h3>
                                     <span>Unlimited alcoholic drink</span>
                                 </div>
                             </div>
@@ -439,7 +439,7 @@
                                     </a>
                                 </div>
                                 <div class="service-content">
-                                    <h3>Book dinnig table</h3>
+                                    <h3 class="service-content-h3">Book dinnig table</h3>
                                     <span>Money back guarantee</span>
                                 </div>
                             </div>
@@ -452,7 +452,7 @@
                                     </a>
                                 </div>
                                 <div class="service-content">
-                                    <h3>Master chef dinner</h3>
+                                    <h3 class="service-content-h3">Master chef dinner</h3>
                                     <span>Alway available timing</span>
                                 </div>
                             </div>
@@ -465,7 +465,7 @@
                                     </a>
                                 </div>
                                 <div class="service-content">
-                                    <h3>Balanced diet food</h3>
+                                    <h3 class="service-content-h3">Balanced diet food</h3>
                                     <span>Food is an important parts</span>
                                 </div>
                             </div>
@@ -2399,13 +2399,13 @@
     </section> -->
     <section class="social_media">
         <div class="container cos_cs">
-            <div class="col-lg-3"></div>
-            <div class="col-lg-6">
-                <a href="">
-                    <img src="image/social.jpeg" alt="social_media">
-                </a>
+            <div class="row">
+                <div class="col-md-12 col-lg-12 col-sm-12">
+                    <div class="social">
+                        <img src="image/social.jpeg" alt="social_media" class="social_page">
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-lg-3"></div>
         </div>
     </section>
     <!--  Social Media end--> 
@@ -2434,11 +2434,11 @@
                                     <input type="hidden" id="reservations_date" value="" />
                                 </div>
                                 <div class="mb-2">
-                                 <select name="reservations_time" class="form-control"><option value="">Select Time</option><option value="11:00">11:00</option><option value="11:30">11:30</option><option value="12:00">12:00</option><option value="12:30">12:30</option><option value="13:00">13:00</option><option value="13:30">13:30</option><option value="14:00">14:00</option><option value="14:30">14:30</option><option value="15:00">15:00</option><option value="16:00">16:00</option><option value="16:30">16:30</option><option value="17:00">17:00</option><option value="17:30">17:30</option><option value="18:00">18:00</option><option value="18:30">18:30</option><option value="19:00">19:00</option><option value="19:30">19:30</option><option value="20:00">20:00</option><option value="21:00">21:00</option><option value="21:30">21:30</option><option value="22:00">22:00</option></select>
-                                 <input type="hidden" name="reservations_status" value="Pending">
-                             </div>
+                                   <select name="reservations_time" class="form-control"><option value="">Select Time</option><option value="11:00">11:00</option><option value="11:30">11:30</option><option value="12:00">12:00</option><option value="12:30">12:30</option><option value="13:00">13:00</option><option value="13:30">13:30</option><option value="14:00">14:00</option><option value="14:30">14:30</option><option value="15:00">15:00</option><option value="16:00">16:00</option><option value="16:30">16:30</option><option value="17:00">17:00</option><option value="17:30">17:30</option><option value="18:00">18:00</option><option value="18:30">18:30</option><option value="19:00">19:00</option><option value="19:30">19:30</option><option value="20:00">20:00</option><option value="21:00">21:00</option><option value="21:30">21:30</option><option value="22:00">22:00</option></select>
+                                   <input type="hidden" name="reservations_status" value="Pending">
+                               </div>
 
-                             <div class="col-md-4 mb-2">
+                               <div class="col-md-4 mb-2">
                                 <div class="qty-item">
                                     <div class="center">
                                         <div class="plus-minus">
@@ -2461,18 +2461,19 @@
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!-- home delivery end -->
+     </div>
+    </section>
+    <!-- home delivery end -->
 
 <!-- footer start -->
 <section class="footer-7 section-top-bottom-padding">
-    <div class="container">
+    
+        <div class="container">
         <div class="row">
-            <div class="col">
-                <div class="footer-bottom">
+            <div class="col-md-3 col-lg-3 col-sm-12">
+                <div class="footer-bottom hrb">
                     <div class="footer-link">
-                        <div class="f-info re_size">
+                        <div class="f-info">
                             <ul class="footer-first">
                                 <li class="logo-content" style="padding-left: 45px;">
                                     <a href="#">
@@ -2498,12 +2499,15 @@
                                 </li>
                             </ul>
                         </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-lg-2 col-sm-12">
+                <div class="footer-bottom">
+                    <div class="footer-link">
                         <div class="f-link">
                             <h2 class="h-footer">Services</h2>
-                            <a href="#services" data-bs-toggle="collapse" class="h-footer">
-                                <span>Services</span>
-                                <i class="fa fa-angle-down"></i>
-                            </a>
                             <ul class="f-link-ul collapse" id="services" data-bs-parent="#footer-accordian">
                                 <li class="f-link-ul-li"><a href="#">About vegist</a></li>
                                 <li class="f-link-ul-li"><a href="#">Faq's</a></li>
@@ -2520,12 +2524,14 @@
                                 </li>
                             </ul>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-lg-2 col-sm-12">
+                <div class="footer-bottom">
+                    <div class="footer-link">                       
                         <div class="f-link">
                             <h2 class="h-footer">Privacy & terms</h2>
-                            <a href="#privacy" data-bs-toggle="collapse" class="h-footer">
-                                <span>Privacy & terms</span>
-                                <i class="fa fa-angle-down"></i>
-                            </a>
                             <ul class="f-link-ul collapse" id="privacy" data-bs-parent="#footer-accordian">
                                 <li class="f-link-ul-li"><a href="#">Payment policy</a></li>
                                 <li class="f-link-ul-li"><a href="#">Privacy policy</a></li>
@@ -2534,111 +2540,95 @@
                                 <li class="f-link-ul-li"><a href="#">Terms & conditions</a></li>
                             </ul>
                         </div>
-                        <!-- <div class="f-link">
-                            <h2 class="h-footer">My account</h2>
-                            <a href="#account" data-bs-toggle="collapse" class="h-footer">
-                                <span>My account</span>
-                                <i class="fa fa-angle-down"></i>
-                            </a>
-                            <ul class="f-link-ul collapse" id="account" data-bs-parent="#footer-accordian">
-                                <li class="f-link-ul-li"><a href="#">My account</a></li>
-                                <li class="f-link-ul-li"><a href="#">My cart</a></li>
-                                <li class="f-link-ul-li"><a href="#">Order history</a></li>
-                                <li class="f-link-ul-li"><a href="#">My wishlist</a></li>
-                                <li class="f-link-ul-li"><a href="#">My address</a></li>
-                            </ul>
-                        </div> -->
-                        <div class="f-link">
-                           
-                            <div class="mapouter">
-                                <div class="gmap_canvas">
-                                    <iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=University of Oxford&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
-                                        
-                                    </iframe>
-                                    
-                                </div>
-                                <style>.mapouter{position:relative;text-align:right;width:0px;height:0px;}.gmap_canvas {overflow:hidden;background:none!important;width:300px;height:400px;}.gmap_iframe {width:300px!important;height:200px!important;}</style></div>
-                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 col-lg-5 col-sm-12">
+                <div class="mapouter">
+                    <div class="gmap_canvas">
+                         <iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=University of Oxford&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                    </div>
+                    <style>.mapouter{margin: 0 auto;    display: table;}.gmap_iframe {width:300px!important;height:200px!important;}</style>
+                </div>
+            </div>
+        </div>
+        </div>
+    
+    </section>
+    <!-- footer end -->
+    <!-- copyright start -->
+    <section class="footer-copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="f-bottom">
+                        <p>Copyright <i class="fa fa-copyright"></i> 2021 digimo</p>
+                        <img src="image/payment.png" class="img-fluid" alt="p-image">
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!-- footer end -->
-<!-- copyright start -->
-<section class="footer-copyright">
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <div class="f-bottom">
-                    <p>Copyright <i class="fa fa-copyright"></i> 2021 digimo</p>
-                    <img src="image/payment.png" class="img-fluid" alt="p-image">
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- copyright end -->
-<!-- back to top start -->
-<a href="javascript:void(0)" class="scroll" id="top">
-    <span><i class="fa fa-angle-double-up"></i></span>
-</a>
-<!-- back to top end -->
-<div class="mm-fullscreen-bg"></div>
+    </section>
+    <!-- copyright end -->
+    <!-- back to top start -->
+    <a href="javascript:void(0)" class="scroll" id="top">
+        <span><i class="fa fa-angle-double-up"></i></span>
+    </a>
+    <!-- back to top end -->
+    <div class="mm-fullscreen-bg"></div>
 
-<div class="book-now-wrapper cl-block">
-    <p class="toggle">Reservation</p>
-    <div class="book-now ">
-        <div class="book-form">
-            <p>free &amp; instant online restaurant reservations</p>
-            <form action="#" method="post" enctype="multipart/form-data">
-                <input type="hidden" name="_token" value="Yd8onzcMnpIBcbbA5b4WQ1oiOYVZXSSZ01Mw6uPs">
-                <div class="col-xs-12 col-sm-12">
-                    <input class="form-control" type="text" name="name" placeholder="name">
-                </div>
-                <div class="col-xs-12 col-sm-12">
-                    <input id="email-sidebar" class="form-control" type="email" name="email" placeholder="E-mail">
-                </div>
-                <div class="col-xs-12 col-sm-12">
-                    <input id="phone-sidebar" class="form-control" type="text" name="phone" placeholder="Phone Number">
-                </div>
-                <div class="col-xs-12 col-sm-12">
-                    <input id="datepicker-sidebar" class="form-control hasDatepicker" type="text" name="reservations_date" placeholder="date">
-                </div>
-                <div class="col-xs-12 col-sm-12">
-                    <select name="reservations_time" class="form-control">
-                      <option value="">Select Date First</option>
-                  </select>
+    <div class="book-now-wrapper cl-block">
+        <p class="toggle">Reservation</p>
+        <div class="book-now ">
+            <div class="book-form">
+                <p>free &amp; instant online restaurant reservations</p>
+                <form action="#" method="post" enctype="multipart/form-data">
+                    <input type="hidden" name="_token" value="Yd8onzcMnpIBcbbA5b4WQ1oiOYVZXSSZ01Mw6uPs">
+                    <div class="col-xs-12 col-sm-12">
+                        <input class="form-control" type="text" name="name" placeholder="name">
+                    </div>
+                    <div class="col-xs-12 col-sm-12">
+                        <input id="email-sidebar" class="form-control" type="email" name="email" placeholder="E-mail">
+                    </div>
+                    <div class="col-xs-12 col-sm-12">
+                        <input id="phone-sidebar" class="form-control" type="text" name="phone" placeholder="Phone Number">
+                    </div>
+                    <div class="col-xs-12 col-sm-12">
+                        <input id="datepicker-sidebar" class="form-control hasDatepicker" type="text" name="reservations_date" placeholder="date">
+                    </div>
+                    <div class="col-xs-12 col-sm-12">
+                        <select name="reservations_time" class="form-control">
+                          <option value="">Select Date First</option>
+                      </select>
 
-              </div>
-              <div class="col-md-4 mb-2">
-                <div class="qty-item">
-                    <div class="center">
-                        <div class="plus-minus">
-                            <span>
-                                <a href="javascript:void(0)" class="minus-btn text-black">-</a>
-                                <input type="text" name="name" value="1">
-                                <a href="javascript:void(0)" class="plus-btn text-black">+</a>
-                            </span>&nbsp;&nbsp;&nbsp;Person
+                  </div>
+                  <div class="col-md-4 mb-2">
+                    <div class="qty-item">
+                        <div class="center">
+                            <div class="plus-minus">
+                                <span>
+                                    <a href="javascript:void(0)" class="minus-btn text-black">-</a>
+                                    <input type="text" name="name" value="1">
+                                    <a href="javascript:void(0)" class="plus-btn text-black">+</a>
+                                </span>&nbsp;&nbsp;&nbsp;Person
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <input type="hidden" name="reservations_status" value="Pending">
-            <div class="col-xs-12 col-sm-12">
-                <textarea class="form-control" rows="3" name="message" placeholder="message &amp; special request"></textarea>
-            </div>
-            <div class="form-group col-xs-12">
-                <div id="sidebar_mail_success" class="success" style="display:none;">Your message has been sent successfully. </div>
-                <div id="sidebar_mail_fail" class="error" style="display:none;"> Sorry, error occured this time sending your message. </div>
-            </div>
-            <div class="col-xs-12 col-sm-12">
-                <button class="btn" type="submit">make a reservation</button>
-            </div>
-        </form>
+                <input type="hidden" name="reservations_status" value="Pending">
+                <div class="col-xs-12 col-sm-12">
+                    <textarea class="form-control" rows="3" name="message" placeholder="message &amp; special request"></textarea>
+                </div>
+                <div class="form-group col-xs-12">
+                    <div id="sidebar_mail_success" class="success" style="display:none;">Your message has been sent successfully. </div>
+                    <div id="sidebar_mail_fail" class="error" style="display:none;"> Sorry, error occured this time sending your message. </div>
+                </div>
+                <div class="col-xs-12 col-sm-12">
+                    <button class="btn" type="submit">make a reservation</button>
+                </div>
+            </form>
+        </div>
     </div>
-</div>
 </div>
 
 <!-- back to top start -->

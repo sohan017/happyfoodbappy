@@ -235,10 +235,10 @@ body.hidden {
     color: #fff;
     font-size: 14px;
     padding: 10px 40px;
-    background-color: #222;
+    background-color: #5fa800;
     font-weight: 500;
     border-radius: 3px;
-    border: 2px solid #222;
+    border: 2px solid #5fa800;
 }
 
 .btn-style2:hover {
@@ -2546,7 +2546,7 @@ footer css
 }
 
 .footer-bottom .footer-link .f-info {
-    width: calc(30% - 15px);
+    /*width: calc(30% - 15px);*/
     margin-left: 15px;
 }
 
@@ -2594,7 +2594,7 @@ footer css
 }
 
 .footer-bottom .footer-link .f-link {
-    width: calc(21.66% - 15px);
+   /* width: calc(21.66% - 15px);*/
     margin-left: 15px;
 }
 
